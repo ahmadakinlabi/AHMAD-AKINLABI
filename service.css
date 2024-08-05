@@ -1,0 +1,20 @@
+body{
+    background-color: color-mix(in srgb, rgb(4, 246, 4) 50%, blue 60%) ;
+    color:rgb(0, 0, 169); ;
+}
+li{
+    color:color-mix(in srgb, rgb(4, 246, 4) 10%, blue 90%);
+    padding: 3px;
+}
+.s1 {
+    display: inline-flex;
+}
+.img1 {
+    width: 190px;
+    height: 125px;
+    border: groove color-mix(in srgb, rgb(4, 246, 4) 30%, blue 60%)15px;
+}
+h1{
+    width: 85vh;
+    text-align: center;
+}
