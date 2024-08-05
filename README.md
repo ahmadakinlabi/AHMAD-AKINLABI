@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHMAD ABIODUN AKINLABI'S PORTFOILIO</title>
+</head>
+    <link rel="stylesheet" href="home.css">
+<body>
+    <h1>AHMAD ABIODUN AKINLABI</h1>
+    <div class="image">
+        <img src="AHK8.JPG" alt="" class="imgahk">
+        <p>...a determined student, plumber, graphics designer & web programmer</p>
+    </div>
+    <!--  -->
+        <!-- <a href="#" >
+            
+             <h2 class="services">SERVICES  </h2>
+        </a>
+        <a href="" >
+            <h2 class="contact">
+            CONTACT US</h2>
+        </a> -->
+    <!-- </div> -->
+    <div class="down">
+        <a href="service.html">
+        <h2 class="services">CAREER</h2>
+        </a>
+
+        <a href="service.html">
+        <h2 class="services">RESUME</h2>
+        </a>
+
+         <a href="contact.html">
+        <h2 class="contact">CONTACT HIM</h2>
+        </a>
+        </div>
+    <script>alert("Good day, this is AHMAD ABIODUN AKINLABI'S PORTFOILIO. To contiue, click OK!")</script>
+</body>
+</html>
