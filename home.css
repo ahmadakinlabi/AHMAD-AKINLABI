@@ -1,0 +1,63 @@
+body{
+background-color: color-mix(in srgb, rgb(0, 98, 255) 50%, rgb(0, 0, 255) 60%);
+    color: rgb(0, 204, 255);
+    ;
+    font-weight: bold;
+}
+.image{
+    text-align: center;
+    display: block;
+    width: 100vw;
+}
+h1{
+    font-weight: bolder;
+}
+.imgahk{
+ width: 450px;  
+ height: 370px;
+ border: groove color-mix(in srgb, blue 60%, green 50%) 30px; 
+}
+.down{
+    display: ruby-text; 
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    /* word-spacing: 10px; */
+    margin-left: 10px;
+}
+.services{
+    color:rgb(0, 204, 255);
+    border:color-mix(in srgb,rgb(0, 204, 255)30%, blue 90%)3px inset ;
+    width: 150px;
+    text-align: center;
+    background-color:color-mix(in srgb, rgb(0, 98, 255) 50%, rgb(0, 0, 255) 60%);
+    cursor:pointer;
+    padding: 4.5px;
+    margin-left: 15px;
+}
+.contact {
+    color: rgb(0, 204, 255);
+    border: color-mix(in srgb,rgb(0, 204, 255) 30%, blue 90%)3px inset;
+    width:180px ;
+    word-spacing: normal;
+    text-align: center;
+    background-color:color-mix(in srgb, rgb(0, 98, 255) 50%, rgb(0, 0, 255) 60%);
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 15px;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    width: 100vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a h2{
+    text-align: center;
+}
+/* a{
+    display: inline;
+} */
+*{
+    font-family: "Yesteryear";
+}

@@ -1,0 +1,88 @@
+body {
+    background-color: color-mix(in srgb, rgb(0, 98, 255) 50%, rgb(0, 0, 255) 60%);
+    color: rgb(0, 255, 208);
+    ;
+}
+.s1{
+    display: inline-flex;
+    color: rgb(0, 204, 255);
+}
+.img1{
+    width: 190px;
+    height: 125px;
+    border: color-mix(in srgb, rgb(4, 246, 4) 30%, blue 60%) groove 15px;
+}
+.img2{
+    height: 30px;
+    border: 8px groove color-mix(in srgb, rgb(4, 246, 4) 30%, blue 50%);
+}
+label{
+    text-align: left;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    color: rgb(0, 204, 255);
+}
+input{
+    background-color: rgb(0, 0, 169);
+    color:rgb(0, 204, 255);
+    border-color: rgb(0, 0, 169);
+    height: 5vh;
+    width: 200px;
+    border: color-mix(in srgb, rgb(4, 246, 4) 10%, rgb(0, 64, 255) 100%) groove 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: obliue;
+}
+.h1{
+    text-align: center;
+    width: 47vw; 
+}
+
+.submit{
+    width: 150px;
+    height: 40px;
+    border: color-mix(in srgb, rgb(4, 246, 4) 30%, blue 60%) groove 12px;
+}
+textarea{
+    background-color: rgb(0, 0, 169);
+    height: 35vh;
+    text-decoration-color:rgb(0, 204, 255);
+    color:rgb(0, 204, 255) ;
+    width: 300px;
+    border: color-mix(in srgb, rgb(4, 246, 4) 10%, rgb(0, 64, 255) 100%) groove 30px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.pp{
+    border:color-mix(in srgb, rgb(4, 246, 4) 10%, rgb(0, 208, 255) 90%) 5px ;
+   border-style: inset;
+   width:175px;
+   color:rgb(0, 204, 255);
+}
+input::placeholder{
+    background-color: rgba(0, 85, 169, 0.75);
+    color: rgb(0, 204, 255);
+    text-align: unset;
+    border: color-mix(in srgb, rgb(4, 246, 4) 10%, rgb(0, 208, 255) 90%) inset 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.thanks{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(0, 251, 255);
+}
+footer{
+    text-align: right;
+    color: rgb(0, 162, 203);
+}
+.last{
+    background-color:color-mix(in srgb, rgb(4, 246, 4) 20%, blue 50%);
+    width: 500px;
+    border:color-mix(in srgb, rgb(4, 8, 246) 20%, blue 50%) inset 10px;
+}
+
+

@@ -1,0 +1,25 @@
+body{
+    background-color: color-mix(in srgb, rgb(0, 98, 255) 50%, rgb(0, 0, 255) 60%) ;
+    color:rgb(0, 242, 255) ;
+}
+li{
+    color:color-mix(in srgb, rgb(4, 246, 4) 10%, rgb(0, 208, 255) 90%);
+    padding: 3px;
+}
+.img1 {
+    width: 190px;
+    height: 125px;
+    border: groove color-mix(in srgb,  rgb(0, 208, 255)30%, blue 60%)15px;
+}
+h1{
+    width: 90vh;
+    text-align: center;
+}
+h4 {
+    margin-left: 30px;
+    color: rgb(0, 208, 255);
+}
+    .s1 {
+        display: inline-flex;
+        width: auto;    
+    }
