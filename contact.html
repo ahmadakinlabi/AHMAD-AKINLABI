@@ -13,7 +13,7 @@
         <h1 class="h1">AHMAD ABIODUN AKINLABI'S CONTACT PAGE</h1>
     </div>
     <p class="pp">Please, fill the form below;</p>
-    <form method="post" action="mailto:ahmadakinlabi.com?subject=AHMAD AKKINLABI'S CONTACT &message=FORM:">
+    <form method="post" <!-- action="mailto:ahmadakinlabi.com?subject=AHMAD AKKINLABI'S CONTACT &message=FORM:"--> > 
         <label >Surname:</label>
         <br>
         <input type="text" name="Surname" placeholder="Surname" required>
@@ -29,15 +29,15 @@
         <br><br>
         <label>Phone:</label>
         <br>
-        <input type="number" name="Phone number" placeholder="Phone number" required >
+        <input type="number" name="Phone number" placeholder="Phone number" required minlength="99999999999"
+        max="99999999999999">
         <br><br>
         <label>Description:</label>
         <br>
         <textarea name="Comment(s)" cols="30" rows="10" aria-required="true" required placeholder="You can state what you are interested in or your Comment(s) here..."></textarea>
         <br><br>
         <input type="reset" class="submit">
-        <input type="submit" class="submit" value="Send Email">
-        <input type="submit" value="SUBMIT EMAIL TO: ahmadakinlabi@gmail.com" <a href="mailto:ahmadakinlabi@gmail.com" class="submit">
+        <input type="submit" value="SUBMIT EMAIL TO: ahmadakinlabi@gmail.com" <a href="mailto:ahmadakinlabi@gmail.com">
     </form>
     <br>
     
